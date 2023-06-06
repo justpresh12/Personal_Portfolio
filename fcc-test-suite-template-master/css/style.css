@@ -87,6 +87,8 @@ img {
   background: var(--main-red);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
+  padding:0.1%;
+  font-size:small;
 }
 
 .nav-list {
@@ -136,12 +138,16 @@ img {
   text-align: center;
   padding: 10rem 2rem;
   background: var(--main-blue);
+
 }
 
 .projects-section-header {
   max-width: 640px;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid var(--main-white);
+  color: rgb(255, 255, 255);
+  background-color:#9cc965;
+  
 }
 
 @media (max-width: 28.75em) {
@@ -153,9 +159,9 @@ img {
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 4rem;
+  grid-gap: 10rem;
   width: 100%;
-  max-width: 1280px;
+  max-width: 1000px;
   margin: 0 auto;
   margin-bottom: 6rem;
 }
